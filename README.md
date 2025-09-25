@@ -6,7 +6,7 @@ API REST desenvolvida em **Java** com **Spring Boot**, utilizando **PostgreSQL**
 
 ## Tecnologias Utilizadas
 
-- **Java 17** (ou versão utilizada)  
+- **Java 17**  
 - **Spring Boot**  
 - **Spring Data JPA**  
 - **PostgreSQL**  
@@ -23,6 +23,7 @@ A API permite realizar as seguintes operações:
 - **Read**: Consultar todos ou registros específicos  
 - **Update**: Atualizar registros existentes  
 - **Delete**: Remover registros  
+
 
 
 
