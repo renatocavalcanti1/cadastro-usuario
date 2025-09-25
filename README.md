@@ -1,28 +1,29 @@
-API REST desenvolvida em Java com Spring Boot, utilizando PostgreSQL como banco de dados. Esta API permite realizar operações CRUD (Create, Read, Update, Delete) e foi testada com Postman.
+# Sistema para cadastro de usuários
 
-Tecnologias Utilizadas
+API REST desenvolvida em **Java** com **Spring Boot**, utilizando **PostgreSQL** como banco de dados. Esta API permite realizar operações CRUD (Create, Read, Update, Delete) e foi testada com **Postman**.
 
-Java 17 (ou versão que você usou)
+---
 
-Spring Boot
+## Tecnologias Utilizadas
 
-Spring Data JPA
+- **Java 17** (ou versão utilizada)  
+- **Spring Boot**  
+- **Spring Data JPA**  
+- **PostgreSQL**  
+- **Maven**  
+- **Postman** (para testes de API)  
 
-PostgreSQL
+---
 
-Maven
-
-Postman (para testes de API)
-
-Funcionalidades
+## Funcionalidades
 
 A API permite realizar as seguintes operações:
 
-Create: Criar novos registros
+- **Create**: Criar novos registros  
+- **Read**: Consultar todos ou registros específicos  
+- **Update**: Atualizar registros existentes  
+- **Delete**: Remover registros  
 
-Read: Consultar todos ou registros específicos
 
-Update: Atualizar registros existentes
 
-Delete: Remover registros
 
