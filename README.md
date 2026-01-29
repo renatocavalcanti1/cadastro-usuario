@@ -1,30 +1,28 @@
-# Sistema para cadastro de usuários
+# Sistema de Gestão de Usuários - API REST
 
-API REST desenvolvida em **Java** com **Spring Boot**, utilizando **PostgreSQL** como banco de dados. Esta API permite realizar operações CRUD (Create, Read, Update, Delete) e foi testada com **Postman**.
-
----
+API RESTful desenvolvida para o gerenciamento completo de usuários, focada em uma arquitetura limpa, separação de responsabilidades e persistência de dados eficiente.
 
 ## Tecnologias Utilizadas
+- **Linguagem:** Java 17
+- **Framework:** Spring Boot 3+
+- **Persistência:** Spring Data JPA / Hibernate
+- **Banco de Dados:** PostgreSQL
+- **Gerenciamento de Dependências:** Maven
+- **Ferramentas de Teste:** Postman
 
-- **Java 17**  
-- **Spring Boot**  
-- **Spring Data JPA**  
-- **PostgreSQL**  
-- **Maven**  
-- **Postman** (para testes de API)  
+## Arquitetura e Funcionalidades
+O projeto foi estruturado seguindo o padrão **MVC** (Model-View-Controller) e dividido em 3 camadas principais:
+1. **Controller:** Exposição dos endpoints e manipulação de requisições/respostas HTTP.
+2. **Service:** Camada de lógica de negócio e regras de validação.
+3. **Repository:** Interface de comunicação com o banco de dados via JPA.
 
----
+**Principais Recursos:**
+- CRUD completo com 4 endpoints (POST, GET, PUT, DELETE).
+- Mapeamento de entidades utilizando **Lombok** e **Builder Pattern** para código mais limpo.
+- Validação de payloads JSON e códigos de status HTTP apropriados.
 
-## Funcionalidades
-
-A API permite realizar as seguintes operações:
-
-- **Create**: Criar novos registros  
-- **Read**: Consultar todos ou registros específicos  
-- **Update**: Atualizar registros existentes  
-- **Delete**: Remover registros  
-
-
-
-
-
+## Como Executar
+1. Clone o repositório.
+2. Configure o `application.properties` com suas credenciais do PostgreSQL.
+3. Execute o comando `mvn spring-boot:run`.
+4. A API estará disponível em `http://localhost:8080`.
